@@ -126,5 +126,7 @@ function trueOrFalse(val) {
 }
 
 //#7: if..else and ternary operator
-
-// testing updated git version. Is it work or not
+ function newFunc(num, multiplier) {
+    return num * multiplier;
+ }
+ newFunc(2024, 125);
