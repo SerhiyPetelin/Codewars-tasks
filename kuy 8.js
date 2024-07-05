@@ -108,3 +108,15 @@ var min = function(list) {
 var max = function(list) {
     return list.reduce((maxValue, current) => (current > maxValue ? current : maxValue), list[0]);
 }
+
+
+const cars = ["Nissan 350z", "Audi Q8", "MB CLS", "Porshe 911"];
+cars[cars.length] ="Toyota Supra";
+cars.push("Tesla X");
+
+for (let i = cars.length - 1; i < cars.length; i++){
+    if (cars[i][0] === "P") {
+        return [i];
+    }
+    console.log(cars[i]);
+}
