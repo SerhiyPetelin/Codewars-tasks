@@ -126,7 +126,3 @@ function trueOrFalse(val) {
 }
 
 //#7: if..else and ternary operator
- function newFunc(num, multiplier) {
-    return num * multiplier;
- }
- newFunc(2024, 125);
