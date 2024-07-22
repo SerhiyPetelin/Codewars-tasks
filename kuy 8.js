@@ -121,4 +121,11 @@ for (let i = cars.length - 1; i < cars.length; i++){
     console.log(cars[i]);
 }
 
-// here I'm testing my new ssh connection
+// Highest and Lowest
+
+function highAndLow(numbers){
+    let numArray = numbers.split(' ').map(Number);
+    let highest = Math.max(...numArray);
+    let lowest = Math.min(...numArray);
+    return `${highest} ${lowest}`;
+  }
